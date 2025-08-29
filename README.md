@@ -32,7 +32,7 @@ You've successfully built my mod! You should be able to see a newly created fold
 
 5. Delete the "META-INF" folder found within the jar file.
 
-6. Drag-&-drop the class files you just created, and close the windows for WinRAR or 7-Zip and File Explorer.
+6. Drag-&-drop the class files you just created (or the ones I've built for your convenience, which you've most certainly grabbed from my GitHub repository), and close the windows for WinRAR or 7-Zip and File Explorer.
 
 7. Open BetaCraft and boot up "inf-20100360-1835 (1.139)" (the version of Minecraft you just installed). I hope you enjoy my mod :)
 
