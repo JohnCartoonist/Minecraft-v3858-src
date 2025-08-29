@@ -540,8 +540,8 @@ public class ChunkProviderGenerate implements IChunkProvider {
 		/*
 		-------------------------------------------------------------------------------------------------------------------------------------------
 		
-		Why have only one type of tree when we can have differing sizes? That question has motivated me to restore
-		Alpha v1.0.0's tree generation in hopes of having it coexist with Infdev 20100415's big trees.
+		Why have only one type of tree when we can have differing sizes? That question has motivated me to utilize
+		the small trees Infdev 20100415 had in its source code, which were seemingly unused.
 		
 		-------------------------------------------------------------------------------------------------------------------------------------------
 		*/
