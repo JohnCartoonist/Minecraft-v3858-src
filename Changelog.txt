@@ -1,0 +1,47 @@
+August 22nd, 2025
+
+
+- Restored Infdev 20100415's terrain generator:
+   - ChunkProviderGenerate
+   - WorldGenBigTree
+   - WorldGenMinable
+   - WorldGenTrees (it appears to have gone unused, although, I might have to check that to be certain)
+
+- Infdev 20100415's terrain generator has been extended to account for caves and dungeon generation. It uses Infdev 20100360's implementations since this is a mod for that version of Minecraft: Java Edition and it's easier to pull a pre-existing implementation than writing my own system for cave generation and dungeon generation.
+
+- Failed to reimplement Infdev 20100360's generation of flowers, mushrooms, and liquids. They often froze the game during the process of generating a new world. They're currently absent.
+
+- Failed to reimplement Indev's scrolling dirt background on the title screen. The game crashed before getting into the title screen. It currently isn't included.
+
+- Failed to reimplement Classic 0.30's player bobbing (specifically for walking). I got compilation errors and couldn't have been bothered to continue finding any more brute-force solutions for them after a small number of failures. It currently isn't included.
+
+- Failed to reimplement Indev 20100223's house structure (the place where the player spawns in after having just created a new world). The house was nowhere to be seen and it seemingly messed with chunk generation. It currently isn't included.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+August 27th, 2025
+
+
+- Changed the version title to "Minecraft 3858".
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+August 28th, 2025
+
+
+- Restored Minecraft Indev 20100202-2330's vertical background scroll for the title screen.
+
+- Failed to restore Alpha 1.0.4's animated "MINECRAFT" logo.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+August 29th, 2025
+
+
+- Realized I was developing a mod for Minecraft Alpha v1.0.0, so any references to Infdev 20100360 within code comments were changed to accommodate for this.
+
+- Adjusted Alpha v1.0.0's dungeon generation code.
+
+- Restored Minecraft Alpha v1.0.0's generation of flowers, mushrooms, trees, dirt blocks, gravel blocks, and flowing water and lava. Worlds are now composed of large bodies of water where small and big trees coexist with the occasional flowers, mushrooms, and waterfall or lavafall.
+
+- Changed the game's version name to "Minecraft v3858".
