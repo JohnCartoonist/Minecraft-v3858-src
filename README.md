@@ -5,7 +5,7 @@ Besides the title screen thing, what you're getting is a fusion of Minecraft Inf
 
 
 # Build instructions
-1. Download Retro MCP-Java and the JDK 8 from Azul Zulu, but make sure that the version of JDK 8 you're installing comes with Java FX: https://github.com/MCPHackers/RetroMCP-Java.
+1. Download Retro MCP-Java v1.0 and the JDK 8 from Azul Zulu, but make sure that the version of JDK 8 you're installing comes with Java FX: https://github.com/MCPHackers/RetroMCP-Java.
 
 2. Open Retro MCP-Java, and the version of Minecraft you're going to select is "Infdev 20100360-2", not Infdev 20100360-1.
 
